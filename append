@@ -1,0 +1,16 @@
+
+var lh_inst  = {
+
+    showStartWindow : function() {
+            var z = document.createElement('div');
+            z.innerHTML = 'test satu dua tiga<';
+            var parentElement = document.body;
+            parentElement.appendChild(z);
+    }
+
+};
+	
+	lh_inst.showStartWindow();
+	
+
+<?php exit; ?>
